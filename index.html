@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home Studio &amp; Beats | Grabación, mezcla y beats a medida</title>
+<meta name="description" content="Graba tu tema con calidad profesional. Grabación + mezcla 12 €, beats a medida 15 €, pack completo 25 € y mezcla online 10 €. Reserva por WhatsApp.">
+<meta name="theme-color" content="#0d0b09">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Home Studio &amp; Beats">
+<meta property="og:description" content="Graba tu tema con calidad profesional. Grabación, mezcla y beats a medida desde 10 €.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Home Studio & Beats","telephone":"+34641942055","priceRange":"10 € - 25 €","description":"Grabación, mezcla y beats a medida. Mezcla online a distancia."}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{--bg:#0d0b09;--sf:#16120e;--sf2:#1e1812;--line:rgba(255,232,190,.13);--cream:#f4ecdb;--mute:#a79e8c;
+  --amber:#ffb02e;--amber2:#ff7a1a;--gold:#ffc83d;--g:#6fdc5f;--r:#ff4d3a;
+  --serif:'Instrument Serif',Georgia,'Times New Roman',serif;--sans:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,Menlo,monospace;
+  --pad:clamp(1.25rem,5vw,2.5rem)}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--cream);font-family:var(--sans);line-height:1.55;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;z-index:100;pointer-events:none;opacity:.08;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+h1,h2,h3,p,figure,blockquote,ol,ul{margin:0}
+ol,ul{list-style:none;padding:0}
+a{color:inherit;text-decoration:none}
+svg{display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
+section{padding:clamp(4.5rem,10vw,8rem) 0;position:relative}
+h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.02em;line-height:.95}
+.h2{font-size:clamp(2.8rem,7.5vw,5.6rem)}
+em{font-style:italic;color:var(--amber)}
+.lead{font-size:clamp(1.05rem,2vw,1.25rem);color:var(--mute);max-width:36rem}
+.mono{font-family:var(--mono)}
+.center{text-align:center}.center .lead{margin:1.2rem auto 0}
+
+/* Botones: tecla de hardware */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;font:700 1rem var(--sans);cursor:pointer;color:#1a1105;
+  background:linear-gradient(180deg,#ffc860,#ffa21f);border:0;border-radius:14px;padding:.95rem 1.6rem;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 4px 0 #a85d00,0 14px 30px -10px rgba(255,150,20,.55);transition:transform .12s,box-shadow .12s,filter .2s}
+.btn:hover{filter:brightness(1.07)}
+.btn:active{transform:translateY(3px);box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 1px 0 #a85d00,0 6px 14px -8px rgba(255,150,20,.5)}
+.btn-lg{font-size:1.1rem;padding:1.15rem 2rem}
+.btn-sm{padding:.55rem 1rem;font-size:.85rem;border-radius:11px;box-shadow:inset 0 1px 0 rgba(255,255,255,.5),0 3px 0 #a85d00}
+.btn-line{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1px rgba(244,236,219,.3)}
+.btn-line:hover{box-shadow:inset 0 0 0 1px var(--amber);color:var(--amber)}
+.btn-line:active{box-shadow:inset 0 0 0 1px var(--amber)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+
+/* Firma + nav */
+.credit{display:flex;justify-content:center;gap:.6rem;font:500 .7rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#1a1105;
+  background:var(--amber);padding:.45rem 1rem;padding-top:calc(.45rem + env(safe-area-inset-top,0px))}
+header{position:sticky;top:0;z-index:50;background:rgba(13,11,9,.78);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:66px;gap:1rem}
+.logo{font:400 1.45rem/1 var(--serif);white-space:nowrap;display:flex;align-items:center;gap:.6rem}
+.logo i{width:10px;height:10px;border-radius:50%;background:var(--amber);box-shadow:0 0 12px var(--amber)}
+.nav ul{display:none;gap:2rem;font-size:.9rem;color:var(--mute)}.nav ul a:hover{color:var(--cream)}
+@media(min-width:900px){.nav ul{display:flex}}
+
+/* Hero */
+.hero{padding-top:clamp(3rem,7vw,6rem);overflow:hidden}
+.hero .grid{display:grid;gap:3rem;align-items:center}
+@media(min-width:960px){.hero .grid{grid-template-columns:1.15fr .85fr}.disc{margin-right:-8%}}
+.hero h1{font-size:clamp(3.4rem,11vw,6.8rem)}
+.hero .sub{font:italic 400 clamp(1.5rem,3.4vw,2.3rem)/1.15 var(--serif);margin-top:1.4rem}
+.hero .lead{margin-top:1rem}
+.cta{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2rem}
+.stereo{display:grid;gap:.55rem;margin-top:2.2rem;max-width:27rem}
+.stereo div{display:grid;grid-template-columns:1.2rem 1fr;align-items:center;gap:.7rem;font:500 .72rem var(--mono);color:var(--mute)}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:.7rem;margin-top:2rem}
+.fact{background:#080604;border:1px solid var(--line);border-radius:14px;padding:.85rem 1rem}
+.fact b{display:block;font:500 clamp(.95rem,2.6vw,1.25rem) var(--mono);color:var(--amber);text-shadow:0 0 12px rgba(255,176,46,.55)}
+.fact span{font-size:.75rem;color:var(--mute)}
+/* Vinilo */
+.disc{position:relative;width:min(84vw,540px);aspect-ratio:1;margin:0 auto}
+.disc::before{content:"";position:absolute;inset:-14%;background:radial-gradient(closest-side,rgba(255,140,20,.38),transparent 70%)}
+.vinyl{position:absolute;inset:0;border-radius:50%;animation:spin 9s linear infinite;
+  background:repeating-radial-gradient(circle at 50% 50%,#0b0b0b 0 2px,#181818 2px 3px);box-shadow:0 40px 90px -20px #000,0 0 0 1px #2b2b2b}
+.vinyl::before{content:"";position:absolute;inset:7%;border-radius:50%;background:repeating-radial-gradient(circle,transparent 0 6px,rgba(255,255,255,.04) 6px 7px)}
+.lab{position:absolute;inset:33%;border-radius:50%;display:grid;place-items:end center;padding-bottom:15%;text-align:center;color:#1a1105;
+  background:radial-gradient(circle,#0d0b09 0 4.5%,transparent 5%),linear-gradient(135deg,#ffc860,#ff7a1a);
+  font:500 clamp(.42rem,1.7vw,.7rem)/1.35 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.sheen{position:absolute;inset:0;border-radius:50%;pointer-events:none;
+  background:conic-gradient(from 20deg,transparent 0 18%,rgba(255,255,255,.15) 25%,transparent 32% 68%,rgba(255,255,255,.1) 75%,transparent 82%)}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Medidores LED */
+.meter{display:flex;gap:3px;height:11px}
+.meter i{flex:1;border-radius:2px;background:var(--c);opacity:.16;transition:opacity .12s}
+.meter i.g{--c:var(--g)}.meter i.a{--c:var(--amber)}.meter i.r{--c:var(--r)}
+.meter i.on{opacity:1;box-shadow:0 0 8px var(--c)}
+
+/* Marquee */
+.marq{overflow:hidden;white-space:nowrap;border-block:1px solid var(--line);padding:1rem 0;margin-top:clamp(3rem,7vw,5rem);font:500 .85rem var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.marq div{display:inline-flex;gap:2.2rem;animation:m 32s linear infinite}.marq b{color:var(--amber);font-weight:500}
+@keyframes m{to{transform:translateX(-50%)}}
+
+/* Tarifas: canales de la mesa */
+.head{margin-bottom:clamp(2.5rem,6vw,4rem)}
+.mix{display:grid;gap:1rem;grid-template-columns:1fr}
+@media(min-width:700px){.mix{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1060px){.mix{grid-template-columns:repeat(4,1fr)}}
+.ch{position:relative;display:flex;flex-direction:column;gap:1.1rem;padding:1.5rem;border-radius:22px;border:1px solid var(--line);
+  background:linear-gradient(180deg,var(--sf2),var(--sf));transition:transform .3s cubic-bezier(.2,.7,.2,1),border-color .3s,box-shadow .3s}
+.ch:hover{transform:translateY(-6px);border-color:rgba(255,176,46,.5)}
+.ch-top{display:flex;justify-content:space-between;gap:.5rem;font:500 .7rem var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.ch h3{font:400 2.1rem/1 var(--serif);letter-spacing:-.01em}
+@media(min-width:1060px){.ch h3{min-height:2em}}
+.ch .for{font:500 .78rem var(--mono);color:var(--amber);margin-top:-.5rem}
+.lcd{font:500 clamp(2.6rem,5vw,3.4rem)/1 var(--mono);color:var(--amber);text-align:right;background:#080604;border:1px solid #000;border-radius:12px;padding:.75rem 1rem;
+  text-shadow:0 0 16px rgba(255,176,46,.75);box-shadow:inset 0 3px 14px #000,0 1px 0 rgba(255,255,255,.06)}
+.ch p{color:var(--mute);font-size:.95rem;flex:1}
+.ch .btn{width:100%}
+.ch.master{order:-1;border-color:rgba(255,176,46,.6);background:linear-gradient(180deg,#2a1d0c,#17120d);box-shadow:0 0 0 1px rgba(255,176,46,.2),0 34px 90px -34px rgba(255,140,20,.55)}
+.tagm{position:absolute;top:-.8rem;left:1.3rem;background:var(--amber);color:#1a1105;font:500 .68rem var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:.28rem .7rem;border-radius:999px}
+.save{font:500 .78rem var(--mono);color:var(--cream);background:rgba(255,176,46,.12);border:1px solid rgba(255,176,46,.3);padding:.4rem .7rem;border-radius:10px}
+@media(min-width:1060px){.ch.master{order:0}}
+
+/* Configurador */
+.cfg{max-width:800px;margin:clamp(2.5rem,6vw,3.5rem) auto 0;text-align:left;display:grid;gap:1.8rem;padding:clamp(1.4rem,4vw,2.6rem);border-radius:26px;background:linear-gradient(180deg,var(--sf2),var(--sf));border:1px solid var(--line)}
+.q h3{font:500 .78rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);margin-bottom:.8rem}
+.seg{display:flex;width:100%;gap:4px;padding:4px;border-radius:14px;background:#080604;border:1px solid var(--line)}
+@media(min-width:600px){.seg{display:inline-flex;width:auto}}
+.seg button{flex:1;font:500 .95rem var(--sans);color:var(--cream);background:transparent;border:0;padding:.75rem 1.2rem;border-radius:10px;cursor:pointer;transition:background .2s,color .2s}
+.seg button[aria-checked=true]{background:var(--amber);color:#1a1105}
+.out{display:flex;flex-wrap:wrap;gap:1.4rem;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:1.6rem}
+.out small{font:500 .8rem var(--mono);color:var(--amber)}
+.tot{font:500 clamp(3.4rem,10vw,5rem)/1.05 var(--mono);color:var(--amber);text-shadow:0 0 22px rgba(255,176,46,.6)}
+.out p{color:var(--mute);font-size:.92rem;max-width:21rem}
+
+/* Cadena de señal */
+.chain{display:grid;margin-top:clamp(2.5rem,6vw,3.5rem);text-align:left}
+.node{background:var(--sf);border:1px solid var(--line);border-radius:20px;padding:1.6rem}
+.node b{font:500 .75rem var(--mono);color:var(--amber);letter-spacing:.12em}
+.node h3{font:400 1.9rem/1.05 var(--serif);margin:.6rem 0 .5rem}.node p{color:var(--mute)}
+.wire{position:relative;height:46px;width:2px;margin:0 auto;background:repeating-linear-gradient(to bottom,rgba(255,176,46,.55) 0 5px,transparent 5px 10px)}
+.wire::after{content:"";position:absolute;left:50%;top:0;width:9px;height:9px;margin-left:-4.5px;border-radius:50%;background:var(--amber);box-shadow:0 0 12px var(--amber);animation:fv 2s linear infinite}
+@keyframes fv{to{top:100%}}@keyframes fh{to{left:100%}}
+@media(min-width:900px){.chain{grid-template-columns:1fr auto 1fr auto 1fr;align-items:center}
+  .wire{height:2px;width:58px;margin:0;background:repeating-linear-gradient(to right,rgba(255,176,46,.55) 0 5px,transparent 5px 10px)}
+  .wire::after{top:-3.5px;left:0;margin:0;animation:fh 2s linear infinite}}
+.tariff{margin-top:2.5rem;display:flex;flex-wrap:wrap;gap:1rem 1.6rem;justify-content:center;align-items:center}
+.tariff .lcd{font-size:2.2rem;padding:.5rem 1rem}
+
+/* Reseñas */
+.rail{display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:.5rem var(--pad) 1.2rem;margin:clamp(2rem,5vw,3.5rem) calc(var(--pad)*-1) 0;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.rev{flex:0 0 min(84vw,390px);scroll-snap-align:start;scroll-margin-left:var(--pad);display:flex;flex-direction:column;text-align:left;padding:1.8rem;border-radius:22px;background:var(--sf2);border:1px solid var(--line)}
+.stars{display:flex;gap:.15rem;color:var(--gold);filter:drop-shadow(0 0 6px rgba(255,200,61,.45))}
+.rev blockquote{margin:1.1rem 0 1.6rem;flex:1;font:italic 400 1.5rem/1.25 var(--serif)}
+.who{display:flex;align-items:center;gap:.8rem}
+.av{width:2.6rem;height:2.6rem;border-radius:50%;display:grid;place-items:center;font:500 .78rem var(--mono);color:#1a1105;background:linear-gradient(135deg,#ffc860,#ff7a1a)}
+.who b{display:block;line-height:1.2}.who span span{font:500 .72rem var(--mono);letter-spacing:.06em;color:var(--mute);text-transform:uppercase}
+.railnav{display:flex;justify-content:center;gap:.6rem}
+.railnav button{width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:var(--sf);color:var(--cream);font-size:1.3rem;cursor:pointer;transition:border-color .2s,color .2s}
+.railnav button:hover{border-color:var(--amber);color:var(--amber)}
+
+/* FAQ */
+.faq{max-width:780px;margin:clamp(2.5rem,6vw,3.5rem) auto 0;text-align:left}
+.faq details{border-bottom:1px solid var(--line)}.faq details:first-child{border-top:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1.4rem 0;font:400 1.7rem/1.1 var(--serif)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font:300 2rem var(--sans);color:var(--amber);transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq p{padding:0 2rem 1.5rem 0;color:var(--mute);font-size:1.05rem}
+
+/* Final */
+.final{overflow:hidden}
+.final::before{content:"";position:absolute;left:50%;top:50%;width:min(90vw,900px);aspect-ratio:1;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(255,140,20,.28),transparent 70%);pointer-events:none}
+.final .wrap{position:relative}
+.final h2{font-size:clamp(3rem,10vw,7.5rem)}
+.final .lead{margin:1.4rem auto 2.2rem}
+
+footer{border-top:1px solid var(--line);padding:2.2rem 0 calc(6rem + env(safe-area-inset-bottom,0px));font:400 .78rem var(--mono);color:var(--mute)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between}
+footer nav{display:flex;flex-wrap:wrap;gap:.6rem 1.5rem}footer a:hover{color:var(--amber)}
+
+/* WhatsApp flotante */
+.wa{position:fixed;right:max(1rem,env(safe-area-inset-right));bottom:max(1rem,env(safe-area-inset-bottom));z-index:60;width:62px;height:62px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;animation:p 2.2s ease-in-out infinite;transition:transform .2s}
+.wa:hover{transform:scale(1.08)}
+@keyframes p{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.55),0 10px 28px rgba(37,211,102,.4)}50%{box-shadow:0 0 0 18px rgba(37,211,102,0),0 10px 28px rgba(37,211,102,.4)}}
+
+/* Reveal */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1) var(--d,0s),transform .8s cubic-bezier(.2,.7,.2,1) var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.vinyl,.marq div,.wire::after,.wa{animation:none}.js .rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M20.5 3.5A11.9 11.9 0 0 0 12 0C5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6A12 12 0 0 0 12 24c6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.5ZM12 21.9c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.900 9.900 0 0 1 2.100 12C2.100 6.500 6.500 2.100 12 2.100c2.600 0 5.100 1 7 2.900a9.800 9.800 0 0 1 2.900 7c0 5.500-4.400 9.900-9.900 9.900Zm5.400-7.400c-.3-.1-1.800-.9-2-1-.3-.1-.5-.1-.7.1l-1 1.200c-.2.200-.4.200-.7.100-1.800-.9-2.900-1.600-4.100-3.600-.3-.5.3-.5.9-1.700.1-.2 0-.4 0-.5l-.9-2.200c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1 1-1 2.500s1.100 2.900 1.200 3.100c.1.200 2.100 3.300 5.200 4.600 1.900.8 2.700.9 3.600.8.600-.1 1.800-.7 2-1.400.3-.7.300-1.300.2-1.400-.1-.2-.3-.2-.6-.4Z"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.800l2.900 6.600 7.100.7-5.400 4.700 1.600 7-6.200-3.700-6.200 3.700 1.600-7L2 9.100l7.100-.7z"/></symbol>
+</svg>
+<div class="credit" role="note"><span>✦</span><span>Hecho por Pepe</span><span>✦</span></div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#inicio" class="logo"><i></i>Home Studio &amp; Beats</a>
+    <ul>
+      <li><a href="#tarifas">Tarifas</a></li><li><a href="#sesion">Tu sesión</a></li><li><a href="#distancia">Mezcla online</a></li><li><a href="#resenas">Reseñas</a></li><li><a href="#faq">Preguntas</a></li>
+    </ul>
+    <a href="https://wa.me/34641942055" target="_blank" rel="noopener" class="btn btn-sm"><svg width="16" height="16" aria-hidden="true"><use href="#wa"/></svg>WhatsApp</a>
+  </div>
+</header>
+
+<main>
+<section id="inicio" class="hero" style="padding-bottom:0">
+  <div class="wrap grid">
+    <div>
+      <h1 class="rv">Home Studio<br><em>&amp; Beats</em></h1>
+      <p class="sub rv" style="--d:.07s">Graba tu tema con calidad profesional.</p>
+      <p class="lead rv" style="--d:.12s">Grabación, mezcla y beats hechos a tu medida. Reserva directa por WhatsApp y mezcla a distancia si no puedes venir.</p>
+      <div class="cta rv" style="--d:.17s">
+        <a href="https://wa.me/34641942055?text=%C2%A1Hola!%20Quiero%20reservar%20una%20sesi%C3%B3n%20en%20Home%20Studio%20%26%20Beats" target="_blank" rel="noopener" class="btn btn-lg"><svg width="22" height="22" aria-hidden="true"><use href="#wa"/></svg>Reservar por WhatsApp</a>
+        <a href="#tarifas" class="btn btn-lg btn-line">Ver tarifas</a>
+      </div>
+      <div class="stereo rv" style="--d:.22s" aria-hidden="true">
+        <div><span>L</span><span class="meter" data-n="22"></span></div>
+        <div><span>R</span><span class="meter" data-n="22"></span></div>
+      </div>
+      <div class="facts rv" style="--d:.27s">
+        <div class="fact"><b>Desde 10 €</b><span>Tarifas claras</span></div>
+        <div class="fact"><b>WhatsApp</b><span>Reserva directa</span></div>
+        <div class="fact"><b>Online</b><span>Mezcla a distancia</span></div>
+      </div>
+    </div>
+    <div class="disc rv" style="--d:.15s" aria-hidden="true">
+      <div class="vinyl"><div class="lab">Home Studio<br>&amp; Beats<br>33 ⅓ rpm</div></div>
+      <div class="sheen"></div>
+    </div>
+  </div>
+  <div class="marq" aria-hidden="true"><div>
+    <span>Grabación</span><b>●</b><span>Mezcla</span><b>●</b><span>Beats a medida</span><b>●</b><span>Mezcla online</span><b>●</b>
+    <span>Grabación</span><b>●</b><span>Mezcla</span><b>●</b><span>Beats a medida</span><b>●</b><span>Mezcla online</span><b>●</b>
+    <span>Grabación</span><b>●</b><span>Mezcla</span><b>●</b><span>Beats a medida</span><b>●</b><span>Mezcla online</span><b>●</b>
+    <span>Grabación</span><b>●</b><span>Mezcla</span><b>●</b><span>Beats a medida</span><b>●</b><span>Mezcla online</span><b>●</b>
+  </div></div>
+</section>
+
+<section id="tarifas">
+  <div class="wrap">
+    <div class="head center">
+      <h2 class="h2 rv">La mesa de <em>tarifas</em></h2>
+      <p class="lead rv" style="--d:.06s">Elige tu servicio y reserva en un toque. Se abre WhatsApp con el mensaje ya preparado.</p>
+    </div>
+    <div class="mix">
+      <article class="ch rv">
+        <div class="ch-top"><span>CH 01</span><span>En el estudio</span></div>
+        <h3>Grabación + Mezcla</h3>
+        <div class="for">Voz grabada y mezclada</div>
+        <div class="meter" data-n="14" aria-hidden="true"></div>
+        <div class="lcd">12 €</div>
+        <p>Grabas tu tema en el estudio y sale mezclado, listo para escuchar.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://wa.me/34641942055?text=%C2%A1Hola!%20Me%20interesa%20reservar%20el%20servicio%20de%20Grabaci%C3%B3n%20%2B%20Mezcla">Reservar</a>
+      </article>
+      <article class="ch rv" style="--d:.07s">
+        <div class="ch-top"><span>CH 02</span><span>Producción</span></div>
+        <h3>Beats a Medida</h3>
+        <div class="for">Instrumental a tu estilo</div>
+        <div class="meter" data-n="14" aria-hidden="true"></div>
+        <div class="lcd">15 €</div>
+        <p>Un instrumental hecho para ti, con el estilo y el ambiente que buscas.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://wa.me/34641942055?text=%C2%A1Hola!%20Me%20interesa%20reservar%20el%20servicio%20de%20Beats%20a%20Medida">Reservar</a>
+      </article>
+      <article class="ch master rv" style="--d:.14s">
+        <span class="tagm">Más popular</span>
+        <div class="ch-top"><span>Master</span><span>Todo incluido</span></div>
+        <h3>Pack Completo</h3>
+        <div class="for">Beat + Grabación + Mezcla</div>
+        <div class="meter" data-n="14" aria-hidden="true"></div>
+        <div class="lcd">25 €</div>
+        <span class="save">Ahorras 2 € frente a contratarlo por separado</span>
+        <p>Todo el proceso en un solo pack: tu beat, tu grabación y la mezcla final.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://wa.me/34641942055?text=%C2%A1Hola!%20Me%20interesa%20reservar%20el%20servicio%20de%20Pack%20Completo%20(Beat%20%2B%20Grabaci%C3%B3n%20%2B%20Mezcla)">Reservar el pack</a>
+      </article>
+      <article class="ch rv" style="--d:.21s">
+        <div class="ch-top"><span>CH 04</span><span>A distancia</span></div>
+        <h3>Mezcla Online</h3>
+        <div class="for">Envíame tus voces</div>
+        <div class="meter" data-n="14" aria-hidden="true"></div>
+        <div class="lcd">10 €</div>
+        <p>Mándame tus pistas y te las mezclo a distancia, estés donde estés.</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://wa.me/34641942055?text=%C2%A1Hola!%20Me%20interesa%20reservar%20el%20servicio%20de%20Mezcla%20Online">Reservar</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="sesion" style="background:var(--sf);border-block:1px solid var(--line)">
+  <div class="wrap center">
+    <h2 class="h2 rv">Arma tu <em>sesión</em></h2>
+    <p class="lead rv" style="--d:.06s">Dinos qué necesitas y te damos el precio al instante.</p>
+    <div class="cfg rv" style="--d:.1s">
+      <div class="q"><h3>01 · ¿Necesitas un beat?</h3>
+        <div class="seg" role="radiogroup" aria-label="Beat" data-k="beat">
+          <button type="button" role="radio" aria-checked="true" data-v="si">Sí, a medida</button>
+          <button type="button" role="radio" aria-checked="false" data-v="no">Ya tengo beat</button></div></div>
+      <div class="q"><h3>02 · ¿Cómo grabas?</h3>
+        <div class="seg" role="radiogroup" aria-label="Grabación" data-k="rec">
+          <button type="button" role="radio" aria-checked="true" data-v="estudio">En el estudio</button>
+          <button type="button" role="radio" aria-checked="false" data-v="online">Te mando mis voces</button></div></div>
+      <div class="out">
+        <div><small id="cfgName">Pack Completo · Beat + Grabación + Mezcla</small><div class="tot" id="cfgPrice" aria-live="polite">25 €</div><p id="cfgNote">Ahorras 2 € frente a contratarlo por separado (27 €).</p></div>
+        <a id="cfgBtn" class="btn btn-lg" target="_blank" rel="noopener" href="#"><svg width="20" height="20" aria-hidden="true"><use href="#wa"/></svg>Reservar por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="distancia">
+  <div class="wrap center">
+    <h2 class="h2 rv">¿No puedes <em>desplazarte?</em></h2>
+    <p class="lead rv" style="--d:.06s">Mándame tus pistas y te lo mezclo a distancia.</p>
+    <div class="chain">
+      <div class="node rv"><b>01</b><h3>Escríbeme por WhatsApp</h3><p>Cuéntame qué tema tienes y qué sonido buscas.</p></div>
+      <span class="wire" aria-hidden="true"></span>
+      <div class="node rv" style="--d:.08s"><b>02</b><h3>Envíame tus voces y el beat</h3><p>Mándame las pistas por WhatsApp o con un enlace de descarga.</p></div>
+      <span class="wire" aria-hidden="true"></span>
+      <div class="node rv" style="--d:.16s"><b>03</b><h3>Recibe tu mezcla</h3><p>Te devuelvo el tema mezclado, listo para publicar.</p></div>
+    </div>
+    <div class="tariff rv">
+      <div class="lcd">10 €</div><span class="mono" style="color:var(--mute);font-size:.85rem">MEZCLA ONLINE</span>
+      <a href="https://wa.me/34641942055?text=%C2%A1Hola!%20Me%20interesa%20reservar%20el%20servicio%20de%20Mezcla%20Online" target="_blank" rel="noopener" class="btn btn-lg">Enviar mis pistas</a>
+    </div>
+  </div>
+</section>
+
+<section id="resenas" style="background:var(--sf);border-block:1px solid var(--line)">
+  <div class="wrap center">
+    <h2 class="h2 rv">Lo que dicen <em>los artistas</em></h2>
+    <p class="lead rv" style="--d:.06s">Sonido, trato y rapidez, según quienes ya han grabado aquí.</p>
+    <div class="rail" id="rail">
+      <figure class="rev" style="margin-bottom:0">
+        <div class="stars" role="img" aria-label="5 de 5 estrellas"><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg></div>
+        <blockquote>“El sonido de mi tema quedó brutal, con las voces limpias y los graves en su sitio. No esperaba esta calidad por este precio.”</blockquote>
+        <figcaption class="who"><span class="av">KR</span><span><b>Kike RM</b><span>Artista urbano</span></span></figcaption>
+      </figure>
+      <figure class="rev" style="margin-bottom:0">
+        <div class="stars" role="img" aria-label="5 de 5 estrellas"><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg></div>
+        <blockquote>“Trato de diez: me escuchó, entendió lo que buscaba y el beat salió justo con el rollo que quería. Repito seguro.”</blockquote>
+        <figcaption class="who"><span class="av">SB</span><span><b>Suko Beats</b><span>Productor</span></span></figcaption>
+      </figure>
+      <figure class="rev" style="margin-bottom:0">
+        <div class="stars" role="img" aria-label="5 de 5 estrellas"><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg></div>
+        <blockquote>“Trabaja rapidísimo y sin dejar de cuidar los detalles. Le mandé mis voces desde otra ciudad y la mezcla online quedó de estudio grande.”</blockquote>
+        <figcaption class="who"><span class="av">DF</span><span><b>Dani Flow</b><span>Rapero</span></span></figcaption>
+      </figure>
+      <figure class="rev" style="margin-bottom:0">
+        <div class="stars" role="img" aria-label="5 de 5 estrellas"><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg><svg width="20" height="20"><use href="#star"/></svg></div>
+        <blockquote>“Me daba cosa grabar por primera vez y me hizo sentir cómoda desde el minuto uno. La voz quedó limpia y con carácter.”</blockquote>
+        <figcaption class="who"><span class="av">LV</span><span><b>Lía Vega</b><span>Cantante urbana</span></span></figcaption>
+      </figure>
+    </div>
+    <div class="railnav"><button type="button" data-dir="-1" aria-label="Reseña anterior">‹</button><button type="button" data-dir="1" aria-label="Reseña siguiente">›</button></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2 class="h2 center rv">Preguntas <em>frecuentes</em></h2>
+    <div class="faq rv">
+      <details><summary>¿Cómo reservo una sesión?</summary><p>Pulsa cualquier botón de reservar y se abre WhatsApp con el mensaje ya preparado, o escríbeme directamente al +34 641 94 20 55.</p></details>
+      <details><summary>¿Y si no puedo desplazarme?</summary><p>Con la Mezcla Online (10 €) me mandas tus pistas y te las mezclo a distancia, estés donde estés.</p></details>
+      <details><summary>¿Qué incluye el Pack Completo?</summary><p>Tu beat a medida, la grabación y la mezcla final en un solo pack por 25 €. Contratado por separado serían 27 €.</p></details>
+      <details><summary>¿Puedo pedir solo el beat?</summary><p>Sí. El Beat a Medida cuesta 15 € y lo hago con el estilo y el ambiente que busques.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="final center" style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <h2 class="rv">Tu próximo tema <em>empieza hoy</em></h2>
+    <p class="lead rv" style="--d:.06s">Escríbeme y cerramos tu sesión.</p>
+    <div class="cta rv" style="--d:.12s;justify-content:center">
+      <a href="https://wa.me/34641942055" target="_blank" rel="noopener" class="btn btn-lg">+34 641 94 20 55</a>
+      <a href="tel:+34641942055" class="btn btn-lg btn-line">Llamar</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© <span id="y">2026</span> Home Studio &amp; Beats. Todos los derechos reservados.</p>
+    <nav><a href="#tarifas">Tarifas</a><a href="#distancia">Mezcla online</a><a href="#resenas">Reseñas</a><a href="https://wa.me/34641942055" target="_blank" rel="noopener">WhatsApp</a></nav>
+  </div>
+</footer>
+
+<a href="https://wa.me/34641942055" target="_blank" rel="noopener" class="wa" aria-label="Abrir chat de WhatsApp"><svg width="32" height="32" aria-hidden="true"><use href="#wa"/></svg></a>
+
+<script>
+(function(){
+  var $=function(s){return document.querySelector(s)};
+  var still=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  /* Medidores LED */
+  var ms=[].slice.call(document.querySelectorAll('.meter')).map(function(m){
+    var n=+m.dataset.n,h='';for(var i=0;i<n;i++)h+='<i class="'+(i<n*.65?'g':i<n*.85?'a':'r')+'"></i>';
+    m.innerHTML=h;return{k:[].slice.call(m.children),n:n,v:.5};});
+  function tick(){ms.forEach(function(o){var t=still?.6:.2+Math.random()*.75;o.v+=(t-o.v)*.5;var on=Math.round(o.v*o.n);
+    o.k.forEach(function(c,i){c.classList.toggle('on',i<on)})})}
+  tick();if(!still)setInterval(tick,130);
+
+  /* Configurador */
+  var C={
+    'si|estudio':{n:'Pack Completo · Beat + Grabación + Mezcla',p:25,t:'Ahorras 2 € frente a contratarlo por separado (27 €).',m:'Pack Completo (Beat + Grabación + Mezcla)'},
+    'si|online':{n:'Beat a Medida + Mezcla Online',p:25,t:'Beat a medida (15 €) más la mezcla de tus voces a distancia (10 €).',m:'Beats a Medida + Mezcla Online'},
+    'no|estudio':{n:'Grabación + Mezcla',p:12,t:'Grabas tu tema en el estudio y sale mezclado.',m:'Grabación + Mezcla'},
+    'no|online':{n:'Mezcla Online',p:10,t:'Mándame tus pistas y te las mezclo a distancia.',m:'Mezcla Online'}};
+  var st={beat:'si',rec:'estudio'},cur=25;
+  function count(to){var from=cur,t0=performance.now();(function f(t){var k=Math.min(1,(t-t0)/380);cur=Math.round(from+(to-from)*(1-Math.pow(1-k,3)));$('#cfgPrice').textContent=cur+' €';if(k<1)requestAnimationFrame(f)})(t0)}
+  function upd(){var o=C[st.beat+'|'+st.rec];
+    $('#cfgName').textContent=o.n;$('#cfgNote').textContent=o.t;count(o.p);
+    $('#cfgBtn').href='https://wa.me/34641942055?text='+encodeURIComponent('¡Hola! Me interesa reservar el servicio de '+o.m);}
+  document.querySelectorAll('.seg').forEach(function(g){g.addEventListener('click',function(e){
+    var b=e.target.closest('button');if(!b)return;
+    g.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-checked',x===b)});
+    st[g.dataset.k]=b.dataset.v;upd();});});
+  upd();
+
+  /* Carrusel */
+  var r=$('#rail');
+  document.querySelectorAll('[data-dir]').forEach(function(b){b.addEventListener('click',function(){
+    r.scrollBy({left:b.dataset.dir*Math.min(400,r.clientWidth*.85),behavior:'smooth'})})});
+
+  $('#y').textContent=new Date().getFullYear();
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
